@@ -33,7 +33,7 @@ def main():
         # buttons = driver.find_elements_by_class_name('artdeco-button')
         buttons = driver.find_elements(By.CLASS_NAME, 'artdeco-button')
         for b in buttons:
-            if b.text == "Pending": break
+            if b.text == "Pending" or b.text == "Add Section": break
             if b.text == "Connect":
                 input('\tHuman confirmed, any key to shake hands. Ctrl-C to panic')
                 b.click()
