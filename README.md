@@ -11,6 +11,9 @@ This program is designed to automatically connect with peers over LinkedIn given
 
 # Instructions:
 
+## Install dependencies
+pip install selenium
+
 ## Install chromedriver
 download into ./driver/
 https://sites.google.com/chromium.org/driver/downloads
