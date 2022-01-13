@@ -20,6 +20,7 @@ paste all chat history that should be parsed into ./config/chat_history.txt
 
 ## Run
 python perform_social_interactions.py -webdriver [PATH TO WEBDRIVER]
+
 example: "python perform_social_interactions.py -webdriver ./driver/webdriver"
 
 Further instructions will be given in the terminal...
